@@ -13,6 +13,7 @@ The models are labeled Left, Right, and Intersection.
 
 # Model Outputs 
 Left and Right model outputs: Safe or Unsafe 
+
 Intersection model outputs: Stop, Slow, Go, and Not applicable (for when there is no light or predictions needed)
 
 # The goal can be broken up into 4 stages: 
