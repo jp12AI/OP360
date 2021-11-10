@@ -9,7 +9,11 @@ The second and third models determine when it is safe to perform a lane change t
 
 Each of these models have been trained on 1,200 image individually and have an accuracy rate of over 90%. 
 
-The models are labeled 1, 2, and 3. 
+The models are labeled Left, Right, and Intersection.
+
+# Model Outputs 
+Left and Right model outputs: Safe or Unsafe 
+Intersection model outputs: Stop, Slow, Go, and Not applicable (for when there is no light or predictions needed)
 
 # The goal can be broken up into 4 stages: 
 Stage 1: Train and release models (opensource)
