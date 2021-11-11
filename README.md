@@ -27,7 +27,7 @@ Intersection model outputs: Stop, Slow, Go, and Not applicable (for when there i
 
 5) The models were trained to work with cameras mounted on the side front of a vehicle and a camera facing outside the windshield. There's no use in testing the models without the cameras in these orientations/enviroment. I routed the webcam wire through my car window but be creative. Collect data if you can and then send them in the discord server. 
 
-NOTE: ONNX models won't work with this testing solution. These are for integration into openpilot. The models were adapted to tensorflow for live testing purposes. Also, the interface on localhost takes about 30 seconds to load so be patient. 
+NOTE: ONNX models won't work with this testing solution. Onnx models are for integration into openpilot. The models were adapted to tensorflow for live testing purposes. Also, the interface on localhost takes about 30 seconds to load so be patient. 
 
 ![Screenshot from 2021-11-11 10-47-14](https://user-images.githubusercontent.com/58639429/141352433-0363d82b-812f-42b9-b45a-c957ed6fdbcf.png)
 
