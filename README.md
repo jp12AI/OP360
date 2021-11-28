@@ -21,7 +21,7 @@ Stage 3: Integrate the tesla_hmi UI as the UI for openpilot itself (not running 
 
 Stage 4: Create a practical and easy to integrate product to collect data and use collected data to further train better and more sophisiticated models. 
 
-Stage 4: have openpilot make decisions based on the model outputs and work on guidance by navigation (plannerad modification)
+Stage 5: have openpilot make decisions based on the model outputs and work on guidance by navigation (plannerad modification)
 
 Having openpilot guided by naivgation through modifying plannerad is a long term goal. 
 
