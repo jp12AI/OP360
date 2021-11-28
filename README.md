@@ -1,7 +1,7 @@
 # OP360
 True 360 degree vision for openpilot
 
-Openpilot 360 is comprised of 2 Tensorflow Lite models (for now).
+Openpilot 360 is comprised of two Tensorflow Lite models (for now).
 
 The goal of these models is to determine when it is safe to perform a lane change through two side mounted usb cameras. 
 
@@ -9,8 +9,14 @@ Each of these models have been trained on 1,200 images individually and have an 
 
 The models are labeled saved_model_left and saved_model_right.
 
+The concept.py script is what I intened to use as a baseline for integrating the output of the models into the mentioned UI below. 
+
 # Model Outputs 
 Left and Right model outputs: Safe or Unsafe 
+
+# Model Testing and use
+There are three python scripts in this repository. Detect_left.py & Detect_right.py are for model testing. Be sure to have the required python libraries installed. 
+To perform testing: Download/clone this repositroy, update the path to the models and label files on your device, make sure you have a camera plugged in, and then run the script with python. 
 
 # The goal can be broken up into 4 stages: 
 Stage 1: Train and release models (opensource)
